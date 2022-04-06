@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Box Model</title>
+  <style>
+    .div-container{
+      border: 2px solid black;
+      padding: 10px;
+      /* jarak padding top, right, bottom, left 10px */
+    }
+    .p-padding{
+      border: 1px solid blue;
+      /* padding: 20px; */
+      /* padding-top: 20px;
+      padding-bottom: 30px;
+      padding-left: 10px;
+      padding-right: 100px; */
+      /* padding: 30px 100px; */
+      /* nilai pertama untuk atas & bawah, nilai ke2 untuk kiri & kanan */
+      padding: 40px 50px 10px 5px;
+      /* top right bottom left */
+    }
+    .p-margin{
+      border: 1px solid violet;
+      margin: 20px
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Padding -->
+  <h2> Padding </h2>
+  <div class="div-container">
+    <p class="p-padding">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore aliquid corporis laboriosam totam sapiente porro a earum natus fugiat? Reiciendis quaerat, nostrum dignissimos dicta labore ad praesentium repellendus corporis quam.
+      <br />
+      <br />
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa magnam, soluta dignissimos qui numquam possimus temporibus consequatur veritatis voluptate provident est minima aspernatur recusandae cum non dolores ad cupiditate vitae.
+    </p>
+  </div>
+
+  <!-- Margin -->
+  <h2> Margin </h2>
+  <div class="div-container">
+    <p class="p-margin">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio facere quis assumenda quibusdam quo temporibus exercitationem, neque autem. Vitae ipsam, iste doloremque possimus quod molestias distinctio cumque? Architecto, praesentium iusto?
+      <br />
+      <br />
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates, eaque natus. Beatae repellendus architecto nobis, culpa ex adipisci nisi atque praesentium! Nostrum provident quam, vitae nulla unde odit ad ullam.
+    </p>
+  </div>
+</body>
+
+</html>

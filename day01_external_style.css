@@ -1,0 +1,42 @@
+
+/* Variable at css */
+:root{
+  --navbar-color:rgb(255, 0, 0)
+}
+
+/* Selector: metode pemilihan elemen yang akan diberi style/dekorasi */
+
+/* Tag Selector: memilih element berdasarkan nama tag */
+div{
+  background-color: rgb(75, 75, 204)
+}
+
+/* ID Selector: memilih element berdasarkan id => menunjuk ke elemen yang unique sesuai IDnya */
+#navbar{
+  background-color: var(--navbar-color) !important;
+}
+
+#content{
+  border: 2px solid red;
+}
+
+/* Class Selector:  */
+.bold-white{
+  font-weight: bold;
+  color:white;
+}
+
+/* Child Selector */
+div > p{
+  font-weight: bolder;
+}
+
+#content > p{
+  font-weight: bolder;
+}
+
+/* pseudo-class selector */
+#navbar:hover{
+  background-color:blue;
+}
+

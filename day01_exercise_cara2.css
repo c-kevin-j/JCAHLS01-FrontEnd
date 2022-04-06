@@ -1,0 +1,43 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+#navbar{
+  display:flex;
+  background-color: beige;
+}
+
+#nav-left{
+  flex: 3;
+  background-color: gray;
+}
+
+#nav-right{
+  flex: 1;
+  background-color: cornsilk;
+}
+
+#nav-left>ul, #nav-right>ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-evenly;
+  margin: 16px 0px
+}
+
+#banner{
+  background-color: plum;
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#content{
+  display: flex;
+}
+
+.content-card{
+  flex: 1;
+  padding: 16px;
+}
